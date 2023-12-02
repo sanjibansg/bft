@@ -11,3 +11,8 @@ scalar_functions:
     required_options:
       overflow: SILENT # cudf rolls over on overflow
       rounding: TIE_TO_EVEN
+  - name: multiply
+    local_name: multiply
+    required_options:
+      overflow: SILENT # cudf rolls over on overflow
+      rounding: TIE_TO_EVEN
