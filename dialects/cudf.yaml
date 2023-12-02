@@ -16,3 +16,10 @@ scalar_functions:
     required_options:
       overflow: SILENT # cudf rolls over on overflow
       rounding: TIE_TO_EVEN
+  - name: divide
+    local_name: division
+    required_options:
+      overflow: SILENT # cudf rolls over on overflow
+      rounding: TIE_TO_EVEN
+      on_division_by_zero: LIMIT
+      on_domain_error: NAN
