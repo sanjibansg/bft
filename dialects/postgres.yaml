@@ -67,8 +67,6 @@ scalar_functions:
   - name: modulus
     local_name: "%"
     infix: True
-    required_options:
-      overflow: ERROR
     unsupported_kernels:
       - args:
           - i8

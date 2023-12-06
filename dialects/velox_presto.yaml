@@ -98,8 +98,6 @@ scalar_functions:
         result: fp32
   - name: modulus
     local_name: mod
-    required_options:
-      overflow: ERROR
     unsupported_kernels:
       - args:
           - i8

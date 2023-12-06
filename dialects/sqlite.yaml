@@ -37,8 +37,6 @@ scalar_functions:
   - name: modulus
     local_name: "%"
     infix: True
-    required_options:
-      overflow: SILENT
   - name: power
   - name: sqrt
     required_options:
